@@ -1,24 +1,23 @@
 {
-	"name": "scafoldr",
+	"name": "scaffoldr",
 	"description": "Ferramenta de criação e build de aplicações web.",
 	"version": "1.0.0",
 	"author": {
 		"name": "Victor Bastos",
 		"email": "victorwpbastos@gmail.com"
 	},
-	"main": "lib/scafoldr.js",
+	"main": "lib/scaffoldr.js",
 	"license": "BSD",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/victorwpbastos/scafoldr.git"
+		"url": "git://github.com/victorwpbastos/scaffoldr.git"
 	},
 	"devDependencies": {
-		"volo": "*",
 		"underscore": "*",
 		"cli-color": "*"
 	},
 	"preferGlobal": "true",
 	"bin": {
-		"scaf" : "lib/scafoldr.js"
+		"scaff" : "lib/scaffoldr.js"
 	}
 }
