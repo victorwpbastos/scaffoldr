@@ -18,6 +18,7 @@
 	},
 	"preferGlobal": "true",
 	"bin": {
-		"scaff" : "lib/scaffoldr.js"
+		"scaff" : "lib/scaffoldr.js",
+		"scaffoldr" : "lib/scaffoldr.js"
 	}
 }
