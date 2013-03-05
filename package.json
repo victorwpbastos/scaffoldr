@@ -12,6 +12,10 @@
 		"type": "git",
 		"url": "git://github.com/victorwpbastos/scaffoldr.git"
 	},
+	"dependencies": {
+		"underscore": "*",
+		"cli-color": "*"
+	}
 	"devDependencies": {
 		"underscore": "*",
 		"cli-color": "*"
