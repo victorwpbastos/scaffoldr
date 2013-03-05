@@ -16,10 +16,6 @@
 		"underscore": "*",
 		"cli-color": "*"
 	},
-	"devDependencies": {
-		"underscore": "*",
-		"cli-color": "*"
-	},
 	"preferGlobal": "true",
 	"bin": {
 		"scaff" : "lib/scaffoldr.js",
