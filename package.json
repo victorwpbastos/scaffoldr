@@ -16,7 +16,8 @@
 		"underscore": "*",
 		"cli-color": "*",
 		"fs-extra": "*",
-		"sync": "*"
+		"sync": "*",
+		"bower": "*"
 	},
 	"preferGlobal": "true",
 	"bin": {
