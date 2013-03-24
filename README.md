@@ -1,24 +1,20 @@
 Scaffoldr
 ========
 
-Ferramenta de criação e build de aplicações web
+A set of tools to make web development a little more easy and fast!
 
-## Instalação
+## Install
 
-Execute o comando abaixo no terminal:
+Just run:
 
 ```
 npm install scaffoldr -g
 ```
 
-## Tarefas (tasks)
+## Tasks
 
-Para criar um novo projeto execute o comando abaixo no terminal:
+Creating a new app:
 
 ```
 scaffoldr init
 ```
-
-Serão realizadas algumas perguntas e logo em seguida o projeto será criado.
-
-
