@@ -16,7 +16,6 @@
 		"cli-table": "*",
 		"cli-color": "*",
 		"chokidar": "*",
-		"ws": "*",
 		"send": "*",
 		"handlebars": "*",
 		"open": "*",
