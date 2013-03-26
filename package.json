@@ -19,7 +19,6 @@
 		"send": "*",
 		"handlebars": "*",
 		"open": "*",
-		"liveload": "*",
 		"connect": "*",
 		"socket.io": "*"
 	},
