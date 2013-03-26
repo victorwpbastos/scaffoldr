@@ -1,9 +1,30 @@
+<script src="http://localhost:1234/socket.io/socket.io.js"></script>
 <script type="text/javascript">
 	(function() {
-		var WebSocket = window.WebSocket || window.MozWebSocket;
-		var conn = new WebSocket('ws://localhost:1234');
-		conn.onmessage = function(data) {
-			location.reload(true);
-		};
+		function refreshCSS() {
+			var sheets = document.getElementsByTagName("link");
+			for (var i = 0; i < sheets.length; ++i) {
+				var elem = sheets[i];
+				var rel = elem.rel;
+				if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+					var pattern = /\?/,
+						timestamp = "?_" + new Date().valueOf();
+
+					if(pattern.test(elem.href)) {
+						elem.href = elem.href.replace(/\?_\d+/, timestamp);
+					} else {
+						elem.href = elem.href + timestamp;
+					}
+				}
+			}
+		}
+		var socket = io.connect('http://localhost:1234');
+  		socket.on('reload', function (data) {
+    		if(data.ext == 'css') {
+    			refreshCSS();
+    		} else {
+    			location.reload(true);
+    		}
+  		});
 	})();
 </script>

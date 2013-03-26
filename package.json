@@ -19,7 +19,10 @@
 		"ws": "*",
 		"send": "*",
 		"handlebars": "*",
-		"open": "*"
+		"open": "*",
+		"liveload": "*",
+		"connect": "*",
+		"socket.io": "*"
 	},
 	"preferGlobal": "true",
 	"bin": {
