@@ -20,7 +20,8 @@
 		}
 		var socket = io.connect('http://localhost:1234');
   		socket.on('reload', function (data) {
-    		if(data.ext == 'css') {
+    		console.log(data);
+            if(data.ext == 'css') {
     			refreshCSS();
     		} else {
     			location.reload(true);
