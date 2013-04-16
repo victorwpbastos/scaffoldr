@@ -20,7 +20,9 @@
 		"handlebars": "*",
 		"open": "*",
 		"connect": "*",
-		"socket.io": "*"
+		"socket.io": "*",
+		"express": "*",
+		"express-hijackresponse": "*"
 	},
 	"preferGlobal": "true",
 	"bin": {
