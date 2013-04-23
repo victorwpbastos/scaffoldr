@@ -16,13 +16,10 @@
 		"cli-table": "*",
 		"cli-color": "*",
 		"chokidar": "*",
-		"send": "*",
 		"handlebars": "*",
 		"open": "*",
 		"connect": "*",
-		"socket.io": "*",
-		"express": "*",
-		"express-hijackresponse": "*"
+		"socket.io": "*"
 	},
 	"preferGlobal": "true",
 	"bin": {
