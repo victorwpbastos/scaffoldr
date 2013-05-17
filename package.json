@@ -16,7 +16,7 @@
 		"cli-table": "*",
 		"cli-color": "*",
 		"chokidar": "*",
-		"handlebars": "*",
+		"handlebars": "1.0.10",
 		"open": "*",
 		"connect": "*",
 		"socket.io": "*"
