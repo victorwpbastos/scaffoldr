@@ -1,29 +1,30 @@
 {
-	"name": "scaffoldr",
-	"description": "A set of tools to make web development a little more easy and fast!",
-	"version": "1.0.0",
-	"author": {
-		"name": "Victor Bastos",
-		"email": "victorwpbastos@gmail.com"
-	},
-	"main": "lib/scaffoldr.js",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/victorwpbastos/scaffoldr.git"
-	},
-	"dependencies": {
-		"underscore": "*",
-		"cli-table": "*",
-		"cli-color": "*",
-		"chokidar": "*",
-		"handlebars": "1.0.10",
-		"open": "*",
-		"connect": "*",
-		"socket.io": "*"
-	},
-	"preferGlobal": "true",
-	"bin": {
-		"scaffoldr" : "lib/scaffoldr.js",
-		"scaff" : "lib/scaffoldr.js"
-	}
+  "name": "scaffoldr",
+  "description": "A set of tools to make web development a little more easy and fast!",
+  "version": "1.0.0",
+  "author": {
+    "name": "Victor Bastos",
+    "email": "victorwpbastos@gmail.com"
+  },
+  "main": "lib/scaffoldr.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/victorwpbastos/scaffoldr.git"
+  },
+  "dependencies": {
+    "underscore": "*",
+    "cli-table": "*",
+    "cli-color": "*",
+    "chokidar": "*",
+    "handlebars": "1.0.10",
+    "open": "*",
+    "connect": "*",
+    "socket.io": "*",
+    "moment": "~2.0.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "scaffoldr": "lib/scaffoldr.js",
+    "scaff": "lib/scaffoldr.js"
+  }
 }
