@@ -1,4 +1,4 @@
-<script src="http://localhost:1234/socket.io/socket.io.js"></script>
+<script src="http://localhost:THE_PORT/socket.io/socket.io.js"></script>
 <script type="text/javascript">
 	(function() {
 		function refreshCSS() {
@@ -18,13 +18,13 @@
 				}
 			}
 		}
-		var socket = io.connect('http://localhost:1234');
+		var socket = io.connect('http://localhost:THE_PORT');
   		socket.on('reload', function (data) {
     		console.log(data);
             if(data.ext == 'css') {
     			refreshCSS();
     		} else {
-    			location.reload();
+    			location.reload(true);
     		}
   		});
 	})();
