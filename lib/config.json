@@ -1,0 +1,7 @@
+{
+  "install": {
+    "svnPath": "teste",
+    "svnUserName": "teste",
+    "svnPassword": "teste"
+  }
+}
