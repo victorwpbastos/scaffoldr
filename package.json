@@ -20,7 +20,10 @@
     "open": "*",
     "connect": "*",
     "socket.io": "*",
-    "moment": "~2.0.0"
+    "moment": "~2.0.0",
+    "xml2js": "~0.2.8",
+    "bower": "~0.10.0",
+    "shelljs": "~0.1.4"
   },
   "preferGlobal": "true",
   "bin": {
